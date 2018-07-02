@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap 4 Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="index1.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="container-fluid bg">    
+    <div class="row">
+        <div class="col-md-3 col-sm-3 col-xs-0"></div>
+        <div class="col-md-6 col-sm-6 col-xs-12 " >   
+        
+            
+            <form action="#" id="box" class="form-container ">
+                <div class="form-group">
+                    <label for="UserName" >Username:</label>
+                    <input type="text" class="form-control" placeholder="Username" required="required">
+                </div>
+                <div class="form-group">
+                    <label for="Password">Password:</label>
+                    <input type="password" placeholder="Password" class="form-control" required>
+                   
+                </div>
+                <div class="form-group">
+                    <label for="Confirm Password">Confirm Password</label>
+                    <input type="password" class="form-control" placeholder="confirm pasword">
+                </div>
+                <div class="form-group">
+                        <label for="firstName">FirstName:</label>
+                        <input type="text" class="form-control" placeholder="FirstName" required="required">
+                </div>
+                <div class="form-group" >
+                    <label for="LastName:">LastName:</label>
+                    <input type="text" placeholder="Lastname" class="form-control" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email-id">Email-id:</label>
+                    <input class="form-control" placeholder="Email-id" type="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="PhoneNo">Phone No:</label>
+                    <input type="number" class="form-control" placeholder="Phone No" required>
+                </div>
+                <div class="form-group">
+                    <label for="address" >Address:</label>
+                    <input type="text" class="form-control" placeholder="Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="Date of Birth">Date of Birth</label>
+                    <input type="date" placeholder="DOB" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Collage/University">Collage/University</label>
+                    <input type="text" placeholder="Collage/University" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="Branch" >Branch</label>
+                    <input class="form-control" placeholder="Branch" type="text">
+                </div>
+                <div class="text-center">
+                <button class="btn btn-primary btn-lg" type="submit" onclick="popupbox()">Submit</button>
+              </div>
+            </form>
+        </div>
+    <div class="col-md-3 col-sm-3 col-xs-0"></div>
+    </div>
+</div>
+<script>
+function popupbox(){
+    alert("Submit")
+}   
+
+
+</script>
+</body>
+</html>
